@@ -1,0 +1,37 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 40%;
+    gap: 2rem;
+    justify-content: center;
+    min-width: 100vh;
+    align-items: center;
+}
+
+form input, body, button{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+label{
+    color: white;
+}
+
+button{
+    width: 8em;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(https://i.postimg.cc/dVr8ZGL4/pexels-rafael-guajardo-604684.jpg);
+    background-repeat: none;
+    background-size: contain;
+}
